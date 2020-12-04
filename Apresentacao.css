@@ -1,0 +1,16 @@
+h1 {
+	color: red;
+}
+
+#lista-order{
+	color: blue;
+}
+
+.lista-unorder{
+	color: magenta;
+}
+
+#lista-order li {
+	font-weight: bold;
+	font-size: 20px;
+}

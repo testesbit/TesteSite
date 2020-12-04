@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style type="text/css">
+		label {
+			display: block;
+		}
+		h1 {
+			border: 2px solid;
+			padding: 20px 15px 10px 50px;
+			margin: 10px 20px 30px 40px;
+		}
+	</style>
+</head>
+<body>
+	<h1>TESTE</h1>
+	<form>
+		<label for="txdescricao">Descrição:</label>
+		<textarea id="txdescricao" required></textarea>
+
+
+		<label for="dtnascimento">Data de Nascimento:</label>
+		<input id="dtnascimento" type="date">
+
+
+		<legend>Origem:</legend>
+		<select id="cborigem">
+			<option value="201">África</option>
+			<option value="202">América</option>
+			<option value="203" selected="selected">Ásia</option>
+			<option value="205">Europa</option>
+			<option value="206">Oceania</option>
+		</select>	
+
+		<label for="chk-alunosenai">Aluno SENAI-SP?:</label>
+		<input id="chk-alunosenai" type="checkbox">
+	
+
+		<fieldset>			
+			<legend>Estado Físico:</legend>
+
+			<label for="rdsolido">Sólido</label>
+			<input type="radio" id="rdsolido" value="67" name="grpfisico">
+
+
+
+			<label for="rdliquido">Líquido</label>
+			<input type="radio" id="rdliquido" value="78" name="grpfisico">
+	
+
+			<label for="rdgasoso">Gasoso</label>
+			<input type="radio" id="rdgasoso" value="23" name="grpfisico">
+
+		</fieldset>
+
+
+		<input type="color">
+		<input type="text">
+		<input type="submit" name="Gravar">
+	</form>
+
+
+
+</body>
+</html>
